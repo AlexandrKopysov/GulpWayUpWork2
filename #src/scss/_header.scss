@@ -1,0 +1,59 @@
+.backgroundimage {
+    background-image: url("/img/headerfon.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.containerUtp{
+    margin: 0 30vw 0 30vw;
+    text-align: center;
+    margin-top:20px;
+}
+
+.utp{
+    color: #fff;
+    margin-top: 300px;
+    text-align: center;
+    .zaglavUtp{
+        font-size: 52px;
+        font-weight: 400;
+    }
+    p{
+        font-size: 16px;
+        margin:15px 50px 20px 50px;
+        font-weight: 300;
+        line-height: 1.5;
+        letter-spacing: 2px;
+    }
+    
+    .btnBlock{        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    $buttonWidth: 190px;
+    $buttonHeight: 50px;
+    $buttonBorderRadius: 5px;
+
+
+    .btn1{
+        font-weight: bold;
+        color: black;
+        width: $buttonWidth;
+        height: $buttonHeight;
+        border-radius: $buttonBorderRadius;        
+        border: none;
+        background-color: #FFEA30;                
+    }
+    .btn2{
+        font-weight: bold;
+        color: #fff;
+        width: $buttonWidth;
+        height: $buttonHeight;
+        border-radius: $buttonBorderRadius;
+        background: rgba(255, 255, 255, 0);
+        border: 2px solid #fff;        
+        margin-left:30px;
+    }
+}
